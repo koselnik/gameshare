@@ -1,0 +1,11 @@
+<!ELEMENT games (game+)>
+
+<!ELEMENT game (game_id, game_name, created_at, created_by, image, rating, description, category)>
+<!ELEMENT game_id (#PCDATA)>
+<!ELEMENT game_name (#PCDATA)>
+<!ELEMENT created_at (#PCDATA)>
+<!ELEMENT created_by (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
