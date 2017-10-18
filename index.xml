@@ -4,13 +4,17 @@
 
 <games>
   <game>
-    <game_name>Martin</game_name>
-    <image>m.h@kth.se</image>
-    <rating>0703164598</rating>
-    <description>Sällskap</description>
-    <category>Hej jag söker efter någon som vill dricka glögg me</category>
-    <created_at>131011</created_at>
-    <created_by>99</created_by>
-    <game_id>99</game_id>
+    <game_name>Dominion</game_name>
+    <image>https://cf.geekdo-images.com/7mkW_JrUx0PSa4Ame3zzsLE0BVY=/fit-in/246x300/pic394356.jpg</image>
+    <rating>5</rating>
+    <description>
+      "You are a monarch, like your parents before you, a ruler of a small pleasant kingdom of rivers and evergreens. Unlike your parents, however, you have hopes and dreams! You want a bigger and more pleasant kingdom, with more rivers and a wider variety of trees. You want a Dominion! In all directions lie fiefs, freeholds, and feodums. All are small bits of land, controlled by petty lords and verging on anarchy. You will bring civilization to these people, uniting them under your banner.
+
+      But wait! It must be something in the air; several other monarchs have had the exact same idea. You must race to get as much of the unclaimed land as possible, fending them off along the way. To do this you will hire minions, construct buildings, spruce up your castle, and fill the coffers of your treasury. Your parents wouldn't be proud, but your grandparents, on your mother's side, would be delighted."
+    </description>
+    <category>Toms spel</category>
+    <created_at>2017-10-10</created_at>
+    <created_by>Yelena</created_by>
+    <game_id>10</game_id>
   </game>
 </games>

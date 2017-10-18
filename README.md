@@ -1,2 +1,4 @@
 # gameshare
-School project 
+School project
+
+use MAMP pro
