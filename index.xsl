@@ -43,7 +43,7 @@
     </a>
     <a>
       <xsl:attribute name="href">
-        <xsl:text> andradatabas.php?id=</xsl:text><xsl:value-of select="game_id"/>
+        <xsl:text> update.php?id=</xsl:text><xsl:value-of select="game_id"/>
       </xsl:attribute>
       <div class="myButton">Change</div>
     </a>

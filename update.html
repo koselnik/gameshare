@@ -1,0 +1,50 @@
+<html>
+  <meta charset="utf-8" />
+  <head>
+    <title>Update game</title>
+  </head>
+  <body>
+      <form action="update.php" method="post">
+        <div class="game_name">
+          <label for="game_name">Game's name:</label>
+          <input type="text" size="30" maxlength="30" name="game_name" value="<?php echo !empty($name)? $name :'';?>">
+          <span class="error">* <?php echo $nameErr;?></span>
+          <br/>
+        </div>
+        <div class="description">
+          <label for="description"> Description:</label><br/>
+          <textarea rows="20" cols="75" name="description" wrap="physical" value="<?php echo !empty($description)? $description :'';?>"></textarea><br/>
+        </div>
+        <div class="category">
+          <label for="category">Choose a category:</label>
+          <select name="category">
+            <option value="Yelenas spel">Yelenas spel</option>
+            <option value="Toms spel">Toms spel</option>
+            <option value="Båda gillar">Båda gillar</option>
+          </select><br/>
+        </div>
+        <div class="image">
+          <label for="image">Image:</label>
+          <input type="text" size="30" maxlength="255" name="image"><br/>
+        </div>
+        <div class="rating">
+          <label for="rating">Rating:</label>
+          <select name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select><br/>
+        </div>
+        <div class="created_by">
+          <label for="created_by">Your name:</label>
+          <input type="text" size="20" maxlength="20" name="created_by"><br/>
+        </div>
+        <div class="form-actions">
+          <a class="btn" href="index.php">Back</a>
+          <input type="submit" value="Update" name="submit">
+        </div>
+      </form>
+  </body>
+</html>
